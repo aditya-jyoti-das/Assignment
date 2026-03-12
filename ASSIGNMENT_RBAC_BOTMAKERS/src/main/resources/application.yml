@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  userdb:
+    datasource:
+      url: jdbc:postgresql://localhost:5433/userdb
+      username: aditya123
+      password: aditya123bt
+      driver-class-name: org.postgresql.Driver
+    jpa:
+      properties:
+        hibernate:
+          ddl-auto: update
+          dialect: org.hibernate.dialect.PostgreSQLDialect
