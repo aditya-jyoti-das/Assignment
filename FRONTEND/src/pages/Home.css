@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.home-container {
+    width: 550px;
+    margin: 220px auto;
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-title {
+    margin-bottom: 20px;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background: #3498db;
+    color: white;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.register-btn {
+    background: #2ecc71;
+    color: white;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    font-size: x-large;
+}
